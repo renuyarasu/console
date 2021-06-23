@@ -1,5 +1,6 @@
 // Javascript console Methods
 
+console.clear();
 const employee = {
     name: 'VedaGna',
     designation: 'DEV'
