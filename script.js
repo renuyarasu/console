@@ -1,16 +1,11 @@
 // Javascript console Methods
 console.clear(); // Console was cleared
 
-// console.trace();
-function one() {
-    two()
+// console.table();
+
+let user = {
+    name: 'VedaGna',
+    age: 5,
 }
-function two() {
-    three()
-}
-function three() {
-    four()
-}
-function four() {
-    console.trace()
-}
+console.log(user.name);
+console.table(user);
