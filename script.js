@@ -1,14 +1,20 @@
 // Javascript console Methods
 console.clear(); // Console was cleared
 
-// console.table();
+// console CSS styles
 
-async function getUsers() {
-    let response = await
-        fetch('https://jsonplaceholder.typicode.com/users')
-    let data = await response.json()
-    // console.log(data); // display info
-    // console.table(data); // display data in table
-    console.table(data, ['username']); // display username data in table
-}
-getUsers();
+console.log(
+  "%c Auth ",
+  "color:white; background-color: blue",
+  "User has logged in."
+);
+console.log(
+  "%c Info ",
+  "color:black; background-color: yellow; font-weight:bold;",
+  "User has logged in."
+);
+console.log(
+  "%c Error ",
+  "color:white; background-color: red; font-size: 1rem",
+  "User has logged in."
+);
