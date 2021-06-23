@@ -1,11 +1,11 @@
 // Javascript console Methods
-console.clear();
+console.clear(); // Console was cleared
 
-// variables
-// %s string
-// %d digits
+// log | info | debug | warn | error
 
-console.log('%s is %d years old.', 'VedaGna', 5); // VedaGna is 5 years old.
-
-
+console.log('Console Log');
+console.info('Console Information');
+console.debug('Console Debug');
+console.warn('Console Warning');
+console.error('Console Error');
 
