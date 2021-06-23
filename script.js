@@ -1,11 +1,11 @@
 // Javascript console Methods
 console.clear(); // Console was cleared
 
-// log | info | debug | warn | error
+const user = {
+    name: 'VedaGna',
+    age: 5,
+}
+console.log(user); //The console.log() method prints out a toString representation of the object in the console to the user.
 
-console.log('Console Log');
-console.info('Console Information');
-console.debug('Console Debug');
-console.warn('Console Warning');
-console.error('Console Error');
+console.dir(user); // The console.dir() method output the list of object properties of a specified object in the console to the user.
 
