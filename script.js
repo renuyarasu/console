@@ -1,16 +1,15 @@
 // Javascript console Methods
 console.clear(); // Console was cleared
 
-// console.time();
-// console.timeLog();
-// console.timeEnd();
+// console.group();
+// console.groupCollapsed();
+// console.groupEnd();
 
-console.time();
-
-setTimeout(() => {
-    console.timeEnd();
-}, 5000) //default: 5015.69091796875 ms
-
-setTimeout(() => {
-    console.timeLog();
-}, 2000) // default: 2014.47314453125 ms
+// console.group('Group');
+console.groupCollapsed('Group');
+console.log('Lorem ipsum dolor sit amet.');
+console.log('Lorem ipsum dolor sit amet.');
+console.log('Lorem ipsum dolor sit amet.');
+console.log('Lorem ipsum dolor sit amet.');
+console.groupEnd();
+console.log("I'm not in teh group!");
