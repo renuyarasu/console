@@ -1,1 +1,1 @@
-git commit -m "Changed linguist-language HTML to JavaScript"
+*.html linguist-language=JavaScript
